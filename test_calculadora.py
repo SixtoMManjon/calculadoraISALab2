@@ -19,7 +19,7 @@ class TestCalculadora(unittest.TestCase):
 	 
 	 def test_resta(self):
 		 self.assertEqual(calculadora.resta(0, 1), -1)
-		 self.assertEqual(calculadora.resta(1, 0), 0)
+		 self.assertEqual(calculadora.resta(1, 0), 1)
 		 self.assertEqual(calculadora.resta(4, 3), 1)
 		 self.assertEqual(calculadora.resta(4, -3), 7)
 		 self.assertEqual(calculadora.resta(-3, 1), -4)
