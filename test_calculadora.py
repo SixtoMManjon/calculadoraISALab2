@@ -41,6 +41,15 @@ class TestCalculadora(unittest.TestCase):
 		 self.assertEqual(calculadora.divi(4, 2), 2)
 		 self.assertEqual(calculadora.divi(4, -2), -2)
 		 self.assertEqual(calculadora.divi(-3, 1), -3)
+		 
+	 	 # Prueba de la funcion Raiz cuadrada raizC
+	 
+	 def test_raizC(self):
+		 self.assertEqual(calculadora.raizC(10.0), 3.16346153846)
+		 self.assertEqual(calculadora.raizC(30.0), 5.47727272727)
+		 self.assertEqual(calculadora.raizC(9.0), 3)
+		 self.assertEqual(calculadora.raizC(25), 5)
+		 self.assertEqual(calculadora.raizC(3.1416), 1.7725028453)
 
 if __name__ == "__main__":
     unittest.main()
