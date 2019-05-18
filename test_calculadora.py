@@ -24,5 +24,14 @@ class TestCalculadora(unittest.TestCase):
 		 self.assertEqual(calculadora.resta(4, -3), 7)
 		 self.assertEqual(calculadora.resta(-3, 1), -4)
 
+ 	 # Prueba de la funcion multi
+	 
+	 def test_multi(self):
+		 self.assertEqual(calculadora.multi(0, 1), 0)
+		 self.assertEqual(calculadora.multi(1, 0), 0)
+		 self.assertEqual(calculadora.multi(4, 3), 12)
+		 self.assertEqual(calculadora.multi(4, -3), -12)
+		 self.assertEqual(calculadora.multi(-3, 1), -4)
+
 if __name__ == "__main__":
     unittest.main()
