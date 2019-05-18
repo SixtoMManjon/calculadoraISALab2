@@ -31,7 +31,7 @@ class TestCalculadora(unittest.TestCase):
 		 self.assertEqual(calculadora.multi(1, 0), 0)
 		 self.assertEqual(calculadora.multi(4, 3), 12)
 		 self.assertEqual(calculadora.multi(4, -3), -12)
-		 self.assertEqual(calculadora.multi(-3, 1), -4)
+		 self.assertEqual(calculadora.multi(-3, 1), -3)
 
 if __name__ == "__main__":
     unittest.main()
